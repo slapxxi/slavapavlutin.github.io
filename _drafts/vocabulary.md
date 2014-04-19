@@ -3,13 +3,11 @@
 Choose which to learn wisely. Learn word by word. Respect and examine each.
 
 - nurse
-- crumble
 - wail
 - sever
 - tap
 - reframe
 - peer
-- loot
 - ripple
 - scamper
 - scramble
@@ -19,13 +17,10 @@ Choose which to learn wisely. Learn word by word. Respect and examine each.
 - insecurity
 - perserverance
 - cog
-- grunting
 - chisel
 - obituary
 - gavel
 - abeyance
-- impudent
-- aberrant
 - droll
 - boulderypable
 - tide
@@ -35,16 +30,19 @@ Choose which to learn wisely. Learn word by word. Respect and examine each.
 
 ## Currently Learning
 
-- bludgeon
-- vent
-- poignant
-- cathartic
-- crude
+- crumble
+- aberrant
+- grunting
 
 ## Done Learning
 
-I have learnt **200** words:
+I have learnt **219** words:
 
+- loot, rob
+- coincide
+- vent, release
+- bludgeon
+- intend, plan, aim
 - thrive, flourish
 - postulate, presume
 - enlighten, inform
@@ -99,6 +97,12 @@ I have learnt **200** words:
 - deceive, hoax
 - aspire, yearn, long
 
+- impudent
+- ingenious, inventive
+- crude, unrefined
+- poignant, touching
+- ephemeral, transitory
+- subtle
 - inalienable
 - ancillary, auxiliary
 - reliant, dependent
@@ -130,6 +134,8 @@ I have learnt **200** words:
 - prolific, productive
 - venomous
 
+- catharsis
+- lifespan
 - alloy, mixture
 - speck, dot
 - cedar

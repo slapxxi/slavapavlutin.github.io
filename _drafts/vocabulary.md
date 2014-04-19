@@ -5,10 +5,8 @@ Choose which to learn wisely. Learn word by word. Respect and examine each.
 - nurse
 - crumble
 - wail
-- postulate
 - sever
 - tap
-- thrive
 - reframe
 - peer
 - loot
@@ -29,7 +27,7 @@ Choose which to learn wisely. Learn word by word. Respect and examine each.
 - impudent
 - aberrant
 - droll
-- bouldery
+- boulderypable
 - tide
 - tidal
 - clot
@@ -37,17 +35,30 @@ Choose which to learn wisely. Learn word by word. Respect and examine each.
 
 ## Currently Learning
 
+- bludgeon
+- vent
 - poignant
+- cathartic
+- crude
 
 ## Done Learning
 
-I have learnt **175** words:
+I have learnt **200** words:
 
-- contemplate
-- refute, disprove
+- thrive, flourish
+- postulate, presume
+- enlighten, inform
+- induce, persuade, convince
+- elude, evade, avoid
+- purport, claim
+- deteriorate, worsen
+- hinder, impede, obstruct
+- stagnate
+- contemplate, ponder, consider
+- refute, disprove, prove false
 - dispense, provide
 - congregate, gather
-- alienate, estrange
+- alienate, estrange, antagonize
 - jeopardize, threaten
 - accommodate, help
 - enthrall, captivate
@@ -86,12 +97,12 @@ I have learnt **175** words:
 - presume, assume
 - gratify, satisfy, please
 - deceive, hoax
-- aspire, yearn for, long for
+- aspire, yearn, long
 
+- inalienable
 - ancillary, auxiliary
 - reliant, dependent
 - obese, overweight
-- venomous
 - fruitful, productive
 - purposeful, determined
 - blunt; sharp
@@ -117,8 +128,9 @@ I have learnt **175** words:
 - incoming, arriving
 - midst, middle
 - prolific, productive
+- venomous
 
-- alloy
+- alloy, mixture
 - speck, dot
 - cedar
 - awe, wonder

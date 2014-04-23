@@ -2,42 +2,14 @@
 
 Choose which to learn wisely. Learn word by word. Respect and examine each.
 
-- nurse
-- wail
-- sever
-- tap
-- reframe
-- peer
-- ripple
-- scamper
-- scramble
-- counsel
-
-- highstakes
-- insecurity
-- perserverance
-- cog
-- chisel
-- obituary
-- gavel
-- abeyance
-- droll
-- boulderypable
-- tide
-- tidal
-- clot
-- scoop
-
-## Currently Learning
-
-- crumble
-- aberrant
-- grunting
-
 ## Done Learning
 
-I have learnt **219** words:
+I have learnt **225** words:
 
+- crumble
+- stray
+- grunt
+- profess
 - loot, rob
 - coincide
 - vent, release
@@ -97,6 +69,8 @@ I have learnt **219** words:
 - deceive, hoax
 - aspire, yearn, long
 
+- time-consuming
+- aberrant
 - impudent
 - ingenious, inventive
 - crude, unrefined
@@ -134,6 +108,7 @@ I have learnt **219** words:
 - prolific, productive
 - venomous
 
+- chore
 - catharsis
 - lifespan
 - alloy, mixture

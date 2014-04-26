@@ -30,9 +30,13 @@ Choose which to learn wisely. Learn word by word. Respect and examine each.
 
 ## Currently Learning
 
+- breakdown
+- espouse
+
 
 ## Done Learning
 
-I have learnt **2** words:
+I have learnt **4** words:
 
+- affect, impact
 - drawback, disadvantage

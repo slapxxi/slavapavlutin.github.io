@@ -1,5 +1,35 @@
 # On Writing
 
+I want to write a lot and write fluently but my writing seems such a waste that I want to give up immediately. What can I do about that? Actually, I can do everything that can help me overcome this attitude and start gaining some results from my life.
+
+## To Write a Lot I need to Read a lot
+
+Writing of others helps me shape my thinking and better understand how other people think while writing, how they produce ideas, and what they write about in essence.
+
+## The Essence - The most important thing about something
+
+I should focus on the essence of my life. In other words, I should pay attention only to what really matters. To identify what matters to me, however, I need to write and think a lot.
+
+## Organize your life thus organizing your thinking and vice versa
+
+There is a lot of chaos in my life now and I don't enjoy this state of affairs. I prefer being in charge not being leaded to nowhere by futile habits.
+
+---
+
+Anyway, I love the writing process so much as I hate realizing that my writing sucks. Actually, the idea that my writing sucks and would suck for a long time impedes my progress.
+
+For me, the most important part of writing is the effect of clarifying my thoughts and feelings. When I write I can reduce ambiguity in my thinking and life. You see, most of the time I can't think clearly and this leads me to nothing interesting. I can do a lot things given the free time I've got but I spend it fruitlessly. That's the disadvantage of my lifestyle. I can use writing to clarify thinking and return to the path I've chosen to walk along.
+
+First, writing can help me to avoid dull thinking and at the same time clarify it. In other words, prolific writing affect the way I think. In other words again, prolific writing really helps to articulate your feelings and make decisions wisely.
+
+Let's write step by step. First let's write about a single topic I consider interesting. Perhaps, a single most important benefit of writing.
+
+There are numerous topics to write about. I dare to say that there are infinite number of topics actually. However, to be an prolific author, I need to pick a topic of interest and write about it exclusively for a limited time. Later on, I can switch topics easily, but not being able to choose one among various is a problem that leads to procrastination and reduced productivity.
+
+If I want to write a lot, I need to choose now and keep writing until I'm out of ideas for my writing. Until then, it's pointless to give up writing about a particular topic because that could lead me astray.
+
+It's time to finally choose a topic to write about. Let's think about it together. I can't even imagine a topic fitting into my unusual and full of flaws thinking. However, that I don't know what to write about yet doesn't mean I cannot write about something to my advantage. I can write for writing to serve a particular goal I want it to accomplish. First of all, then, I need to decide on what writing can really do for me and how it can enlighten my life.
+
 ## Writing is Hard
 
 Writing is hard because it utilizes most of our thinking tools to get words on paper.
@@ -14,7 +44,7 @@ I'm not sure how to write and what to write about, yet I want to write a lot. Ho
 
 What to write about? There definitely are some topics you will write about instead of other topics. So, basically, the main goal is to identify such topics and later extend on them.
 
-How to write a lot?
+## How to write a lot?
 
 I want to write about clean code, software development, personal achievements, and happiness.
 

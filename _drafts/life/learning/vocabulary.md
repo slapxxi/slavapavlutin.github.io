@@ -4,20 +4,45 @@ Choose which to learn wisely. Learn word by word. Respect and examine each.
 
 ## Done Learning
 
-I have learnt **225** words:
+I'm learning **229** words:
 
-- crumble
+* crumble, disintegrate, break up
 - stray
 - grunt
-- profess
+- profess, declare
 - loot, rob
-- coincide
+* coincide
 - vent, release
-- bludgeon
+- bludgeon, batter
 - intend, plan, aim
 - thrive, flourish
-- postulate, presume
-- enlighten, inform
+- postulate, posit
+
+> Rice flour makes the cake less likely to *crumble*. The plane *disintegrated* as it fell into the sea. The ship *broke up* on the rocks.
+
+> Her eyes kept *straying* over to the clock on the wall.
+
+> When I told her what had happened she just *grunted* and turned back to her book.
+
+> She still *professes* her innocence. The government has *declared* a state of emergency.
+
+> More than 20 shops were *looted*. The gang had *robbed* and killed the drugstore owner.
+
+> It's a pity our trips to New York don't *coincide*. The strike was timed to *coincide* with the party conference.
+
+> He *vented* his anger on the referee. She *burst into tears*, *releasing* all her *pent-up* emotions.
+
+> She had been *bludgeoned* to death. She *battered* at the door with her fists.
+
+> I fully *intended* (= definitely intended) to pay for the damage. I've been *planning* how I'm going to spend the day. The government is *aiming* at a 50% reduction in unemployment.
+
+> New businesses *thrive* in this area. Few businesses are *flourishing* in the present economic climate.
+
+> They *postulated* a 500-year lifespan for a plastic container. Most religions *posit* the existence of life after death.
+
+---
+
+* enlighten, inform
 - induce, persuade, convince
 - elude, evade, avoid
 - purport, claim
@@ -29,6 +54,11 @@ I have learnt **225** words:
 - dispense, provide
 - congregate, gather
 - alienate, estrange, antagonize
+
+> She didn't *enlighten* him about her background. Please *inform* us of any changes of address.
+
+---
+
 - jeopardize, threaten
 - accommodate, help
 - enthrall, captivate
@@ -41,6 +71,9 @@ I have learnt **225** words:
 - arouse
 - seize, grab
 - repent, regret
+
+---
+
 - prune, reduce
 - recede, fade
 - procreate, reproduce
@@ -53,6 +86,9 @@ I have learnt **225** words:
 - deem, consider
 - pierce, penetrate
 - branch, fork
+
+---
+
 - forge, hammer out
 - edify, educate, instruct
 - hasten, hurry
@@ -132,3 +168,4 @@ I have learnt **225** words:
 - all the while
 - however, despite that
 - before long, soon, shortly
+

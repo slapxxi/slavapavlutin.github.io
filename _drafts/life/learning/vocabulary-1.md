@@ -4,10 +4,10 @@ Choose what to learn wisely. Learn carefully. Respect what you learn. Share what
 
 ## Learning
 
-I'm learning **59** words:
+I'm learning **67** words:
 
-* liberate
-- fritter away
+* liberate, set free, release
+- fritter away, waste
 * empower
 * entrance, enthral
 - sour
@@ -25,11 +25,11 @@ I'm learning **59** words:
 
 * virtually
 
-> Writing poetry *liberated* her from the routine of everyday life.
+> Writing poetry *liberated* her from the routine of everyday life. The hostages were *set free* just minutes ago. Death *released* him from his sufferings.
 
-> If you don't proceed with caution, you can soon *fritter away* your creative fortune on *nickel and dime* activities. Whether you're going on a planned *sabbatical* or *retreat*, or just in between *gigs*, the best way to prepare yourself for creative productivity is to decide in advance how you will respond when guilt attempts to frustrate your efforts.
+> If you don't proceed with caution, you can soon *fritter away* your creative fortune on *nickel and dime* activities. Whether you're going on a planned *sabbatical* or *retreat*, or just in between *gigs*, the best way to prepare yourself for creative productivity is to decide in advance how you will respond when guilt attempts to frustrate your efforts. Don't *waste* your sympathy on him - he got what he deserved.
 
-> It's a new world *empowered* and *entranced* by the rapid-fire introduction of new technologies - a world where our metaphysical front door is always open, where anyone can whisper in our ear, where "a room of one's own" no longer means you're all alone.
+> It's a new world *empowered* and *entranced* by the rapid-fire introduction of new technologies - a world where our metaphysical front door is always open, where anyone can whisper in our ear, where "a room of one's own" no longer means you're all alone. The courts were *empowered* to impose the death sentence for certain crimes.
 
 > Is the *pervasive* *malaise* that often *sours* even our most precious moments the result of our seeking happiness in the wrongs places?
 
@@ -43,8 +43,8 @@ I'm learning **59** words:
 
 - forgo
 - tack
-- govern
-- insulate, protect
+* govern
+* insulate, protect
 * wield
 * grapple, contend, tackle
 - allude
@@ -87,9 +87,7 @@ I'm learning **59** words:
 
 * substantial
 * vibrant
-- affluent
 - stringent
-- stupendous
 - transferable
 - insatiable
 
@@ -103,7 +101,6 @@ I'm learning **59** words:
 
 > It is no accident that it started expanding at precisely the moment when traditional financial *props* of the writers' trade such as the Net Book Agreement were *abolished*.
 
-> Despite the fact that we are now healthier and grow to be older, despite the fact that even the least *affluent* among us are surrounded by material luxuries undreamed of even a few decades ago, and regardless of all the *stupendous* scientific knowledge we can summon at will, people often end up feeling that their lives have been wasted, that instead of being filled with happiness their years were spent in anxiety and boredom.
 
 > Our validations for the name attribute enforce only minimal constraints — any non-blank name under 51 characters will do — but of course the email attribute must satisfy more *stringent* requirements.
 
@@ -113,12 +110,35 @@ I'm learning **59** words:
 
 ---
 
+* impose
 - come out
+* settle down
+- feeble
+* coincide
+
+- affluent
+- stupendous
+
+- feasability
 - longing
+
 * nonetheless, nevertheless
+* once
+
+> This system *imposes* additional financial burdens on many people.
 
 > They *come out* fresh in September when school starts.
+
+> The heartbeat was *feeble* and irregular.
+
+> It's a pity our trips to New York don't *coincide*. The strike was timed to *coincide* with the party conference.
+
+> Despite the fact that even the least *affluent* among us are surrounded by material luxuries undreamed of even a few decades ago, and regardless of all the *stupendous* scientific knowledge we can summon at will, people often end up feeling that their lives have been wasted, that instead of being filled with happiness their years were spent in anxiety and boredom.
+
+> It's odd that we never question the *feasibility* of a football team practicing long hours for one game; yet in writing we rarely give oursevles the space for practice.
 
 > She was filled with *longing* to hear his voice again.
 
 > The problems are not serious. *Nonetheless*, we need to tackle them soon.
+
+> *Once* you're deep into it, you wonder what took you so long to finally *settle down* at the desk.

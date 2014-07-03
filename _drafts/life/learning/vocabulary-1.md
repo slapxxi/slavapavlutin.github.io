@@ -1,4 +1,4 @@
-# Vocabulary 2
+# Vocabulary 1
 
 Choose what to learn wisely. Learn carefully. Respect what you learn. Share what you learn. Teach what you've learnt.
 

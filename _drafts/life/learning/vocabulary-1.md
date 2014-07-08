@@ -4,22 +4,22 @@ Choose what to learn wisely. Learn carefully. Respect what you learn. Share what
 
 ## Learning
 
-I'm learning **67** words:
+I'm learning **80** words:
 
 * liberate, set free, release
 - fritter away, waste
-* empower
+* empower, authorize
 * entrance, enthral
 - sour
 
 - nickel and dime
-- sabbatical
 - pervasive
 - picky, fussy
 
 * plethora, excess
 - malaise
 - gig
+- sabbatical
 * retreat
 - host
 
@@ -27,9 +27,13 @@ I'm learning **67** words:
 
 > Writing poetry *liberated* her from the routine of everyday life. The hostages were *set free* just minutes ago. Death *released* him from his sufferings.
 
-> If you don't proceed with caution, you can soon *fritter away* your creative fortune on *nickel and dime* activities. Whether you're going on a planned *sabbatical* or *retreat*, or just in between *gigs*, the best way to prepare yourself for creative productivity is to decide in advance how you will respond when guilt attempts to frustrate your efforts. Don't *waste* your sympathy on him - he got what he deserved.
+> If you don't proceed with caution, you can soon *fritter away* your creative fortune on *nickel and dime* activities. Whether you're going on a planned *sabbatical* or *retreat*, or just in between *gigs*, the best way to prepare yourself for creative productivity is to decide in advance how you will respond when guilt attempts to frustrate your efforts.
 
-> It's a new world *empowered* and *entranced* by the rapid-fire introduction of new technologies - a world where our metaphysical front door is always open, where anyone can whisper in our ear, where "a room of one's own" no longer means you're all alone. The courts were *empowered* to impose the death sentence for certain crimes.
+> He *frittered away* the millions his father had left him. Don't *waste* your sympathy on him - he got what he deserved.
+
+> It's a new world *empowered* and *entranced* by the rapid-fire introduction of new technologies - a world where our metaphysical front door is always open, where anyone can whisper in our ear, where "a room of one's own" no longer means you're all alone.
+
+> The courts were *empowered* to impose the death sentence for certain crimes. I have *authorized* him to act for me while I'm away.
 
 > Is the *pervasive* *malaise* that often *sours* even our most precious moments the result of our seeking happiness in the wrongs places?
 
@@ -43,11 +47,11 @@ I'm learning **67** words:
 
 - forgo
 - tack
-* govern
+- allude
+* govern, determine, control
 * insulate, protect
 * wield
 * grapple, contend, tackle
-- allude
 
 - insatiable
 * extensive
@@ -61,13 +65,13 @@ I'm learning **67** words:
 
 > The fastest solution to this problem in Ruby is usually to *forgo* a holding array and *tack* the substrings directly onto a base string.
 
-> This behavior is *governed* by the config.cache_classes setting.
+> All his decisions have been entirely *governed* by self-interest.
 
 > The effect is that Rails *insulates* you almost entirely from the details of the data store. He tried to protect Kelly from the attack.
 
 > The gods of the Greeks were like helpless children compared to humankind today and the powers we now *wield*.
 
-> Creative minds are exceedingly sensitive to the buzz and *whir* of the world around them, and we now have to *contend* with a constant stream of *chirps*, *pings*, and alerts at all hours of the day. I was obsessed with understanding how people cope with failures and I decided to study it by watching how students *grapple* with hard problems.
+> Creative minds are exceedingly sensitive to the buzz and *whir* of the world around them, and we now have to *contend* with a constant stream of *chirps*, *pings*, and alerts at all hours of the day. I was obsessed with understanding how people cope with failures and I decided to study it by watching how students *grapple* with hard problems. The government is determined to *tackle* inflation.
 
 > Adding this index on the email attribute accomplishes a second goal, *alluded* to briefly in Section 6.1.4: it fixes an efficiency problem in find_by.
 
@@ -85,11 +89,11 @@ I'm learning **67** words:
 * convey
 * affect, impact
 
-* substantial
-* vibrant
 - stringent
 - transferable
 - insatiable
+* substantial
+* vibrant
 
 - prop
 
@@ -110,20 +114,26 @@ I'm learning **67** words:
 
 ---
 
-* impose
+- blister
 - come out
-* settle down
 - feeble
+* impose
+* settle down
 * coincide
 
-- affluent
+- affluent, wealthy, rich
 - stupendous
 
+- bulk
+- transcendence
 - feasability
-- longing
+- longing, yearning, craving
 
+* therefore
 * nonetheless, nevertheless
-* once
+* once, as soon as
+
+> Her face had been *blistered* by the sun.
 
 > This system *imposes* additional financial burdens on many people.
 
@@ -135,10 +145,37 @@ I'm learning **67** words:
 
 > Despite the fact that even the least *affluent* among us are surrounded by material luxuries undreamed of even a few decades ago, and regardless of all the *stupendous* scientific knowledge we can summon at will, people often end up feeling that their lives have been wasted, that instead of being filled with happiness their years were spent in anxiety and boredom.
 
+> This book contains a *bulk* of what I've learned and taught in three decades of working with writers.
+
 > It's odd that we never question the *feasibility* of a football team practicing long hours for one game; yet in writing we rarely give oursevles the space for practice.
 
 > She was filled with *longing* to hear his voice again.
 
+> Unless you're writing a science fiction novel, there's only one sun and only one horizon. *Therefore*, the definite article is appropriate.
+
 > The problems are not serious. *Nonetheless*, we need to tackle them soon.
 
-> *Once* you're deep into it, you wonder what took you so long to finally *settle down* at the desk.
+> *Once* you're deep into it, you wonder what took you so long to finally *settle down* at the desk. As soon as she's gone, you can do whatever you want.
+
+---
+
+
+- pass on
+- brim
+- subject
+- counsel
+- pander
+- gravitate
+- skewer
+- squirm
+- juxtapose
+- customary
+- designated
+- watchword
+- arrogance
+- vastness
+- scrim
+
+> *Pass the book on* to me when you've finished with it.
+
+> The team were *brimming* with confidence before the game.

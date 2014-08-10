@@ -1,9 +1,22 @@
 ---
 layout: default
 ---
-<h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
+<article class="post">
+  <hgroup>
+    <img class="intro-img" src="/{{ page.image }}" alt="">
+    <h2>{{ page.title }}</h2>
+    <time class="meta">
+      {{ page.date | date_to_string }}
+    </time>
+  </hgroup>
 
-<div class="post">
-{{ content }}
-</div>
+  <p>
+    {{ content }}
+  </p>
+</article>
+
+<nav>
+  <a href="/" class="btn-home">Home
+    <img src="/home.gif" alt="">
+  </a>
+</nav>

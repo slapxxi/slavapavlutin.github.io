@@ -1,5 +1,5 @@
 name: Slava Pavlutin
 markdown: redcarpet
-pygments: true
+highlighter: true
 sass:
   style: :compressed

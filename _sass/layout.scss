@@ -1,0 +1,70 @@
+.site {
+  margin: 0 auto;
+  line-height: 1.5em;
+}
+
+
+.header {
+  background-color: $bg;
+  color: #fff;
+  text-align: center;
+
+  a {
+  }
+
+  .title {
+    padding: 0.8em auto;
+    margin: 0;
+    color: $light-bg;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 100;
+
+    img {
+      width: 150px;
+    }
+  }
+}
+
+
+.content {
+  width: 60%;
+  margin: 5em auto;
+  font-size: 115%;
+  text-align: justify;
+}
+
+
+.posts {
+  list-style: none;
+  margin-bottom: 2em;
+
+  li {
+    font-size: 3em;
+    font-weight: 100;
+    font-family: "Century Gothic", sans-serif;
+    border-bottom: 1px solid $dark-bg;
+
+    a {
+      display: block;
+      margin: 0.5em 0;
+    }
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  time {
+    display: block;
+    font-size: 0.4em;
+  }
+}
+
+
+.footer {
+  padding: 0.5em 0;
+  color: $light-clr;
+  text-align: center;
+  font-size: 0.8em;
+}

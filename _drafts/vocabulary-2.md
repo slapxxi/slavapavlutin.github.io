@@ -1,4 +1,4 @@
-# Vocabulary 2
+# Vocabulary: Part Two
 
 - roam, wander; _The sheep are allowed to roam freely on this land. She wandered aimlessly around the streets._
 

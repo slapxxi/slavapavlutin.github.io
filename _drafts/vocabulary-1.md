@@ -1,4 +1,4 @@
-# Vocabulary 1
+# Vocabulary: Part One
 
 - liberate, release, set free, ; _Writing poetry liberated her from the routine of everyday life. The hostages were set free just minutes ago. Death released him from his sufferings._
 
@@ -19,15 +19,19 @@
 
 ---
 
-- forgo
-- tack
-- allude
-- govern, determine, control
-- insulate, protect
-- wield
-- grapple, contend, tackle
+- forgo, do without; _No one was prepared to forgo their hour time to attend the meeting._
+- tack, nail; _The carpet was tacked to the floor. I nailed the sign to a tree._
 
-- insatiable
+- allude, refer to; _The problem had been alluded to briefly in earlier discussions. I promised not to refer to the matter again._
+
+- govern, control; _Prices are governed by market demand. The whole territory is now controlled by the army._
+
+- insulate, protect; _Until now the industry had been insulated from economic realities._
+
+- wield; _She wields enormous power within the party._
+- grapple, contend, tackle; _The new government has yet to grapple with the problem of air pollution. The government is determined to tacke inflation._
+
+- insatiable, greedy; _an insatiable appetite/curiosity/thirst; _
 - extensive
 - outrageous
 

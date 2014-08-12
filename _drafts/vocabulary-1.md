@@ -5,20 +5,17 @@
 - fritter away, waste, squander;
 - empower, authorize, mandate;
 - entrance, captivate, enthral;
-- sour
 
-- nickel and dime
-- pervasive
-- picky, fussy
+- sour, spoil; _The atmosphere at the house soured. Our camping trip was spoilt by bad weather._
 
-- plethora, excess
-- malaise
-- gig
-- sabbatical
-- retreat
-- host
+- nickel and dime; _a nickel and dime job_
+- pervasive, prevalent; _A sense of social change is pervasive in her novels. These prejudices are prevalent among people living in the North._
+- picky, fussy; _She's very picky about her clothes. Our teacher is very fussy about punctuation._
 
-- virtually
+- plethora, excess; _The report contained a plethora of detail. You can throw away any excess._
+- malaise, unhappiness; _The latest crime figures are merely symptomatic of a wider malaise in society._
+- sabbatical; _He's on sabbatical._
+- retreat; 'The army was in full retreat.'
 
 ---
 

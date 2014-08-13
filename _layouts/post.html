@@ -1,23 +1,43 @@
 ---
 layout: default
+page_id: post
 ---
 <article class="post">
-  <hgroup>
+  <hgroup class="post-header">
     <a href="/">
-      <img class="post-img" src="/{{ page.image }}" alt="Home">
+      <img class="post-img" src="/{{ page.image }}" alt="Home | Post Image">
     </a>
 
     <h2 class="post-title">{{ page.title }}</h2>
-
-    <time class="meta">
-      {{ page.date | date_to_string }}
-    </time>
+    <h3 class="post-meta">
+      <time>{{ page.date | date_to_string }}</time>
+    </h3>
   </hgroup>
+
+  <p class="intro">
+    {{ page.intro }}
+  </p>
 
   <p>
     {{ content }}
   </p>
 </article>
+
+<nav class='posts-nav'>
+  {% if page.previous %}
+  <div class="posts-nav-prev">
+    &#8612;
+    "<a href="{{page.previous.url}}">{{page.previous.title}}</a>"
+  </div>
+  {% endif %}
+
+  {% if page.next %}
+  <div class="posts-nav-next">
+    "<a href="{{page.next.url}}">{{page.next.title}}</a>"
+    &#8614;
+  </div>
+  {% endif %}
+</nav>
 
 <nav class="icn-home">
   <a href="/"><img src="/home.gif" alt="Home"></a>

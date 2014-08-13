@@ -13,17 +13,31 @@
       <link rel="stylesheet" href="/css/main.css">
 
   </head>
-  <body>
+  <body id="{{page.page_id}}">
     <div class="site">
+
+      <header class="header">
+        <nav>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/"><img src="/logo.gif" alt=""></a></li>
+            <li><a href="/contact">Contact</a></li>
+            <li><a href="/projects">Projects</a></li>
+          </ul>
+        </nav>
+      </header>
+
       <section class="content">
         {{ content }}
       </section>
 
-      <div class="footer">
+      <section class="footer">
         <span class="copyright">
           © 2014 Slava Pavlutin
         </span>
-      </div>
+      </section>
+
     </div>
   </body>
 </html>

@@ -2,6 +2,41 @@
   margin: 0 auto;
 }
 
+.header {
+  overflow: hidden;
+  padding: 1em 0;
+  background-color: #ffe991;
+  text-align: center;
+
+  #post & {
+    display: none;
+  }
+
+  nav {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.3em;
+    ul {
+      list-style: none;
+
+      li {
+        display: inline-block;
+        margin: 0 2em;
+
+        a {
+          color: $dark-clr;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+
+  img {
+    width: 170px;
+    vertical-align: middle;
+  }
+}
+
 .content {
   width: 75%;
   margin: 1em auto;
@@ -27,9 +62,9 @@
 
   li {
     padding: 1em 0;
-    font-size: 2em;
+    // font-size: 2em;
     border-bottom: 1px dashed $light-clr;
-    font-family: $header-font-family;
+    // font-family: $header-font-family;
 
     &:last-child {
       border-bottom: none;
@@ -41,11 +76,25 @@
 
     time {
       display: block;
-      margin: 0.5em 0;
-      font-size: 0.5em;
+      // margin: 0.5em 0;
+      // font-size: 0.5em;
     }
   }
 
+}
+
+.posts-nav {
+  overflow: hidden;
+  margin: 2em 0;
+  font-weight: bold;
+
+  .posts-nav-next {
+    float: right;
+  }
+
+  .posts-nav-prev {
+    float: left;
+  }
 }
 
 

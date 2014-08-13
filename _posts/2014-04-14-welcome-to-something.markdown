@@ -4,10 +4,13 @@ title:  "What's the purpose of this text?"
 date:   2014-08-13 18:20:25
 categories: jekyll update
 image: logo.gif
+intro: "Everyday we make a lot of decisions. Some of them are beneficial but some are malicious. However, if you'd know about what decisions are which, whether you correct your decision-making process?"
 ---
 
-You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
-To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
+<p class="intro">
+</p>
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla aperiam consectetur delectus accusamus qui, corporis iusto dolor dolorum deleniti, placeat tempore, voluptas veniam perspiciatis iste eveniet dignissimos. Labore, nostrum, beatae.
 
 > Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio impedit, cupiditate __something important__. Repudiandae cum suscipit iste sapiente vero incidunt quae, vitae labore excepturi illo voluptatum qui aut, dignissimos, illum nam.
 

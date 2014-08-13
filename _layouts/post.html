@@ -4,9 +4,11 @@ layout: default
 <article class="post">
   <hgroup>
     <a href="/">
-      <img class="intro-img" src="/{{ page.image }}" alt="Home">
+      <img class="post-img" src="/{{ page.image }}" alt="Home">
     </a>
-    <h2>{{ page.title }}</h2>
+
+    <h2 class="post-title">{{ page.title }}</h2>
+
     <time class="meta">
       {{ page.date | date_to_string }}
     </time>
@@ -17,6 +19,6 @@ layout: default
   </p>
 </article>
 
-<nav class="go-home">
+<nav class="icn-home">
   <a href="/"><img src="/home.gif" alt="Home"></a>
 </nav>

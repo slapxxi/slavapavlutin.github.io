@@ -5,18 +5,18 @@
 @import "layout";
 @import "post";
 
-$bg: #f7f7f7;
-
 html, body { height: 100%; }
 
 body {
-  background-color: #f7f7f7;
-  color: #333;
-  font-size: 18px;
+  background-color: $light-bg;
+  color: $dark-clr;
+  font-size: 16px;
+  font-family: $main-font-family;
 }
 
-p {
-  margin: 1.5em 0;
+h1, h2, h3, h4, h5, h6 {
+  font-family: $header-font-family;
+  font-weight: 100;
 }
 
 a {
@@ -37,11 +37,11 @@ time {
   color: $light-clr;
 }
 
-.go-home {
+.icn-home {
   margin-top: 50px;
   text-align: center;
 
   img {
-    width: 50px;
+    width: 40px;
   }
 }

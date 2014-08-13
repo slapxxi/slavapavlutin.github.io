@@ -5,28 +5,36 @@
 .header {
   overflow: hidden;
   padding: 1em 0;
-  background-color: #ffe991;
+  background-color: $header-bg;
   text-align: center;
 
   #post & {
     display: none;
   }
 
+  a, a:visited {
+    color: $dark-clr;
+    font-weight: bold;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
   nav {
+    width: 960px;
+    margin: 0 auto;
     text-align: center;
     text-transform: uppercase;
     font-size: 1.3em;
+
     ul {
       list-style: none;
 
       li {
         display: inline-block;
         margin: 0 2em;
-
-        a {
-          color: $dark-clr;
-          font-weight: bold;
-        }
       }
     }
   }
@@ -34,6 +42,12 @@
   img {
     width: 170px;
     vertical-align: middle;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .header nav {
+    wdith: 400px;
   }
 }
 
@@ -82,21 +96,6 @@
   }
 
 }
-
-.posts-nav {
-  overflow: hidden;
-  margin: 2em 0;
-  font-weight: bold;
-
-  .posts-nav-next {
-    float: right;
-  }
-
-  .posts-nav-prev {
-    float: left;
-  }
-}
-
 
 .footer {
   padding: 0.5em 0;

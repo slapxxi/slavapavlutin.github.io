@@ -20,21 +20,37 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
+  color: #79c7d9;
   &:link {
-    text-decoration: none;
+    // text-decoration: none;
   }
 
   &:visited {
-    color: inherit;
+    color: #6cc5d9;
   }
 
   &:hover {
-    text-decoration: underline;
+    text-decoration: none;
   }
 }
 
 time {
   color: $light-clr;
+}
+
+em {
+  color: $dark-clr;
+  background-color: $header-bg;
+  font-style: normal;
+}
+
+blockquote {
+  padding: 0 2em;
+  margin: 0;
+  color: $light-clr;
+  font-style: italic;
+  border-left: 2px solid $medium-light-clr;
+  border-right: 2px solid $medium-light-clr;
 }
 
 .icn-home {

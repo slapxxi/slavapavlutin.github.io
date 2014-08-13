@@ -27,6 +27,21 @@
   }
 }
 
+
+.posts-nav {
+  overflow: hidden;
+  margin: 2em 0;
+  font-weight: bold;
+
+  .posts-nav-next {
+    float: right;
+  }
+
+  .posts-nav-prev {
+    float: left;
+  }
+}
+
 .post pre {
   border: 1px solid #ddd;
   background-color: #eef;

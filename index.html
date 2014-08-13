@@ -12,11 +12,10 @@ page_id: home
       <h3>
         <a href="{{ post.url }}">{{ post.title }}</a>
       </h3>
-
       <time>{{ post.date | date_to_string }}</time>
 
       <p>{{post.intro}}</p>
-      <p><a href="{{post.url}}">Read more...</a></p>
+      <p><a href="{{post.url}}"><strong>Read more...</strong></a></p>
     </li>
     {% endfor %}
   </ul>

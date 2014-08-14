@@ -2,7 +2,7 @@
 layout: post
 title:  "What's the purpose of this text?"
 date:   2014-08-13 18:20:25
-image: uly.png
+image: logo.gif
 intro: "Everyday we make a lot of decisions. Some of them are beneficial but some are malicious. However, if you'd know about what decisions are which, whether you correct your decision-making process?"
 ---
 

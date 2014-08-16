@@ -2,54 +2,6 @@
   margin: 0 auto;
 }
 
-.header {
-  overflow: auto;
-  background-color: $header-bg;
-  text-align: center;
-
-  a, a:visited {
-    color: $dark-clr;
-    font-family: $header-font-family;
-    text-decoration: none;
-
-    &:hover {
-      text-decoration: underline;
-    }
-  }
-
-  nav {
-    margin: 0 auto;
-    text-align: center;
-    text-transform: uppercase;
-
-    ul {
-      list-style: none;
-
-      li {
-        display: inline-block;
-        border-left: 1px solid #333;
-        padding: 0 3em;
-        margin: 0;
-
-        &:last-child {
-          border-right: 1px solid #333;
-        }
-      }
-    }
-  }
-
-  img {
-    width: 130px;
-    vertical-align: middle;
-  }
-}
-
-@media screen and (min-width: 900px) {
-  .header nav {
-    wdith: 400px;
-  }
-}
-
 .content {
   width: 75%;
   margin: 1em auto;

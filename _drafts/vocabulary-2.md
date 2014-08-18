@@ -13,13 +13,13 @@
 
 - faculty, power; _She retained her mental faculties until the day she died._
 - spur; _He dug his spurs into the horse's sides._
-- affliction, suffering;
-- ailment, illness;
-- foe, enemy;
+- affliction, suffering; _Poor people are in great affliction nowadays._
+- ailment, illness; _childhood/minor/common ailments_
+- foe, enemy; _We've decided to join forces against the common foe._
 
 - stupendous, amazing; _He demonstrated a stupendous display of technique._
 - scarce, in short supply; _Raw materials became scarce recently._
-- elaborate, complicated;
+- elaborate, complicated; _She had prepared a very elaborate meal._
 
 ---
 
@@ -50,22 +50,30 @@
 
 ---
 
+- jabber, chatter; _What is he jabbering about? They chattered away happily for a while._
+- neglect, ignore, disregard; _Dance has been neglected by television. He ignored all the no-smoking signs and lit up a cigarette. The board completely disregarded my reccomendations._
+- lunge; _He took out a knife and lunged at her._
+- snore; _I could hear Paul snoring in the next room._
+- romp, play; _Two kids were romping around in the snow._
+
+- frantic, hectic; _They made frantic attempts to revive him. They follow a hectic schedule._
+
 - repartee; _She engaged him in witty repartee._
+- mason - _A person who builds using stone, or works with stone._
+- rein; _She pulled gently on the reins._
+- apron - фартук
+- garment - a piece of clothing
+- ticker tape; _They were throwing ticker tape around._
+
 - primly; _"You're not supposed to say that," she said primly._
 
-- mason
-- jabber
-- neglect
-- frantic
-- lunge
-- snore
-- rein
-- apron
-- in tow
-- umbrage
-- romp
-- ticker tape
-- stiff
+- in tow; _She turned up with her mother in tow._
+- take umbrage; _He took umbrage at her remarks._
+
+---
+
+- stiff, rigid; _The windows were stiff and she couldn't get them open. She sat up right, her body rigid with fear._
+
 - huddle
 - glaring
 - reprimand

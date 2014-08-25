@@ -2,25 +2,58 @@
   margin: 0 auto;
 }
 
+.header {
+  position: relative;
+  overflow: hidden;
+  padding: 1em 10%;
+  text-transform: uppercase;
+  border-bottom: 1px solid #222;
+  font-weight: 100;
+  font-size: 14px;
+
+  img {
+    width: 10px;
+  }
+
+  a {
+    display: block;
+    color: #666;
+
+    &.active, &:hover {
+      color: #fff;
+    }
+
+    &.active:after {
+      content: '.';
+      float: left;
+      position: relative;
+      left: 26px;
+      margin: -20px 0;
+      font-size: 50px;
+      color: cyan;
+    }
+  }
+
+  .nav-site {
+    ul li {
+      float: right;
+    }
+  }
+}
+
+.intro {
+  text-align: center;
+  font-size: 2em;
+
+  em {
+    color: #aaa;
+    font-style: normal;
+  }
+}
+
 .content {
-  width: 75%;
   margin: 1em auto;
-  font-size: 115%;
-  text-align: justify;
 }
-
-@media screen and (min-width: 900px) {
-  .content {
-    width: 60%;
-  }
-}
-
-@media screen and (max-width: 900px) {
-  .content {
-    width: 85%;
-  }
-}
-
 
 .posts {
   list-style: none;
@@ -55,4 +88,41 @@
   color: $light-clr;
   font-size: 0.8em;
   text-align: center;
+}
+
+// About
+
+.about {
+  overflow: auto;
+  margin: 0 auto;
+  padding: 100px 20%;
+
+  h2 {
+    font-size: 2em;
+  }
+
+  em {
+    font-style: normal;
+  }
+
+  img {
+    float: right;
+    max-width: 100%;
+  }
+}
+
+#about-ruby {
+  em {
+    color: red;
+  }
+}
+
+#about-design {
+  background-color: orange;
+  img {
+    float: left;
+  }
+}
+
+#about-writing {
 }

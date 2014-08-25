@@ -3,6 +3,9 @@
   <head>
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Avenir' rel='stylesheet' type='text/css'>
       <title>{{ page.title }}</title>
       <meta name="viewport" content="width=device-width">
 
@@ -15,6 +18,23 @@
   </head>
 
   <body id="{{page.page_id}}">
+    <header class="header">
+      <nav class="nav nav-site">
+        <a href="/">
+        </a>
+
+        <ul>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#" class="active">Home</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="intro container">
+      <h1>My name is <br/><em>Slava Pavlutin</em></h1>
+    </section>
+
     <div class="site">
       <section class="content">
         {{ content }}

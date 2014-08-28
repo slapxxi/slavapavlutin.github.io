@@ -1,16 +1,5 @@
 ---
 ---
-@import "variables";
-@import "normalize";
+@import "support";
+@import "elements";
 @import "layout";
-@import "post";
-
-html, body { height: 100%; }
-
-body {
-  font-family: $main-font-family;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: $header-font-family;
-}

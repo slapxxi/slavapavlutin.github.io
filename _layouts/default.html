@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400|Dosis:300,400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,  700|Dosis:300,400, 500, 700' rel='stylesheet' type='text/css'>
 
     <title>{{ page.title }}</title>
     <meta name="viewport" content="width=device-width">
@@ -14,8 +14,51 @@
 
   </head>
 
-  <body">
-    {{ content }}
+  <body id="{{ page.page_id }}">
+    <header class="header">
+      <a class="logo" href="/">SLAVA PAVLUTIN</a>
+
+      <nav class="nav">
+        <ul>
+          <li>
+            <a {% if page.page_id == 'projects' %}class="active"{% endif %} href="/projects">Projects</a></li>
+          <li><a {% if page.page_id == 'blog' %}class="active"{% endif %} href="/blog">Blog</a></li>
+          <li><a {% if page.page_id == 'home' %}class="active"{% endif %} href="/">Home</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="content">
+      {{ content }}
+    </div>
+
+    <footer class="footer section-grey">
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/blog">Blog</a></li>
+          <li><a href="/projects">Projects</a></li>
+        </ul>
+      </nav>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa eos impedit est ex, aperiam quam. Reprehenderit, rerum animi sed, perferendis officia quas distinctio deleniti saepe atque tempora! Reprehenderit quia, fuga!</p>
+
+      <nav>
+        <ul>
+          <li><a href="/twitter">Twitter</a></li>
+          <li><a href="/twitter">Dribbble</a></li>
+          <li><a href="/twitter">Github</a></li>
+          <li><a href="/twitter">BeHance</a></li>
+        </ul>
+      </nav>
+      <div class="meta">
+        <time>2014</time> ©
+        Slava Pavlutin
+      </div>
+    </footer>
   </body>
+
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="/js/main.js"></script>
 
 </html>

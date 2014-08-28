@@ -1,3 +1,17 @@
 ---
 layout: default
+page_id: post
 ---
+<article class="post">
+  <section class="intro post-intro">
+    <hgroup>
+      <h1>{{page.title}}</h1>
+    </hgroup>
+    <img src="/img/{{page.image}}" alt="">
+    <p>{{page.intro}}</p>
+  </section>
+
+  <article class="post-content section-white">
+    {{content}}
+  </article>
+</article>

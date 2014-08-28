@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "I'm Slava"
-date:   2014-04-14 18:32:25
+date:   2011-04-14 18:32:25
 categories: ruby design
 image: logo.gif
 intro: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores molestias repudiandae, enim, aspernatur incidunt ipsa hic eos cupiditate quasi laboriosam fugit, consequuntur nihil voluptas neque accusantium autem. Non, possimus, ut."

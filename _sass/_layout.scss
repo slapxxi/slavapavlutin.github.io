@@ -1,0 +1,212 @@
+.header {
+  @include container;
+  @include vertical-padding(1em);
+  border-bottom: 1px solid #eee;
+  font-size: .9em;
+  color: $grey;
+
+  .logo {
+    float: left;
+    letter-spacing: .3em;
+    font-family: $header-font-family;
+    border: 1px dashed $light-grey;
+    border-left: none;
+    border-right: none;
+    color: $grey;
+  }
+
+  .nav {
+    text-transform: uppercase;
+
+    a:hover {
+      color: $blue;
+    }
+  }
+}
+
+
+.content {
+  font-size: 1.5em;
+}
+
+.footer {
+  @include container;
+  clear: both;
+  padding-top: 2em;
+  border-top: 1px solid $white;
+
+  ul {
+    @include reset-list;
+  }
+
+  .meta {
+    text-align: center;
+  }
+}
+
+// Home
+
+.about {
+  @include container;
+  min-height: 500px;
+  padding-bottom: 200px;
+  padding-top: 200px;
+  margin: 0;
+
+  h2 {
+    font-size: 1.9em;
+  }
+
+  img {
+    float: right;
+    margin: 1em;
+    margin-left: 20%;
+  }
+}
+
+.about-right {
+  img {
+    float: left;
+    margin-right: 10%;
+    margin-left: 0;
+  }
+}
+
+#home {
+  .intro {
+    margin-bottom: 5em;
+  }
+}
+
+
+
+// Blog
+
+.posts {
+  @include vertical-padding(2em);
+  padding: 2em 5%;
+
+  ul {
+    @include navlist;
+
+    li {
+      @include vertical-padding(1em);
+    }
+  }
+
+
+  h2 {
+    margin-bottom: 10px;
+  }
+
+  .post-preview {
+    position: relative;
+    float: left;
+    width: 27%;
+    height: 20em;
+    padding: 0 1.5%;
+    margin-bottom: 2em;
+    border-radius: 5px;
+    font-size: .8em;
+
+
+    a {
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+     a.btn {
+      position: absolute;
+      padding: 1em;
+      border-bottom-right-radius: 5px;
+      border-bottom-left-radius: 5px;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: $light-blue;
+      text-align: center;
+      color: #fff;
+
+      &:hover, &:visited {
+        background-color: $dark-lilly;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .post-preview-odd {
+    @include horizontal-margin(5%);
+  }
+
+  .post-preview-meta {
+    font-size: .8em;
+
+    time {
+      font-style: italic;
+      color: $dark-blue;
+    }
+
+    a {
+      color: $orange;
+    }
+  }
+}
+
+
+.post {
+  padding: 0 20%;
+  text-align: justify;
+
+  .post-intro {
+    padding: 1em 0 0;
+
+    img {
+      margin-top: 1em;
+    }
+
+    p {
+      text-align: justify;
+      font-size: 1em;
+      font-size: 2rem;
+      padding: 0 1em;
+      color: $grey;
+    }
+  }
+}
+
+// Projects
+
+.projects {
+  @include navlist;
+
+  h2 {
+    font-weight: 700;
+  }
+
+  .project {
+    @include container;
+    @include vertical-padding(2em);
+    @include vertical-margin(3em);
+    overflow: auto;
+
+    img {
+      float: right;
+      width: 25%;
+      max-width: 250px;
+      margin-left: 20%;
+    }
+  }
+
+  .project-odd {
+    background-color: $lilly;
+    color: #fff;
+
+    img {
+      float: left;
+      margin-right: 20%;
+      margin-left: 0;
+    }
+  }
+}
+

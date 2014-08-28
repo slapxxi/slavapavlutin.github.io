@@ -1,0 +1,153 @@
+@import "normalize";
+
+// Colors
+$white: #fff;
+$black: #111;
+
+$dark-blue: #97b2bf;
+$darkest-blue: #3b6cad;
+$black-blue: #23232e;
+$blue: #80bfda;
+$light-blue: #7bacfd;
+
+$dark-green: #91b7b2;
+$green: #d5e3d3;
+$light-green: #8beced;
+
+$orange: #edb988;
+
+$dark-grey: #6b7073;
+$darkest-grey: #33383c;
+$grey: #898f94;
+$light-grey: #b9bfc8;
+
+$dark-lilly: #999fb4;
+$darkest-lilly: #696f84;
+$lilly: #b9bfe4;
+$light-lilly: #e8e8ff;
+$lighter-lilly: #f8f8ff;
+
+
+// Fonts
+
+$header-font-family: "Dosis", 'Avenir Bold', Georgia, serif;
+$main-font-family: "Source Sans Pro", 'Helvetica Neue', Arial, sans-serif;
+
+// Mixins
+
+@mixin container {
+  padding: 1px 10%;
+  overflow: hidden;
+}
+
+@mixin reset-anchors {
+  a {
+    text-decoration: none;
+
+    a:link, a:hover {
+      text-decoration: none;
+    }
+
+    a:visited, a:active {
+      color: inherit;
+    }
+  }
+}
+
+@mixin navlist {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+@mixin reset-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+@mixin reset-block {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+@mixin vertical-padding($size) {
+  padding-top: $size;
+  padding-bottom: $size;
+}
+
+@mixin vertical-margin($size) {
+  margin-top: $size;
+  margin-bottom: $size;
+}
+
+@mixin horizontal-padding($size) {
+  padding-left: $size;
+  padding-right: $size;
+}
+
+@mixin horizontal-margin($size) {
+  margin-left: $size;
+  margin-right: $size;
+}
+
+// Basic HTML
+
+html, body { height: 100%; }
+
+body {
+  font-family: $main-font-family;
+  color: $dark-grey;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $header-font-family;
+  font-weight: 500;
+  color: $dark-grey;
+}
+
+h1 {
+  color: $dark-grey;
+}
+
+h2 {
+  color: $darkest-grey;
+}
+
+a {
+  text-decoration: none;
+
+  &:link, &:visited {
+    color: $light-blue;
+  }
+
+  &:hover, &:active {
+    color: $blue;
+    text-decoration: underline;
+  }
+}
+
+em {
+  color: $light-blue;
+  font-style: normal;
+}
+
+ul.nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+blockquote {
+  @include reset-block;
+  padding-left: 1em;
+  padding-right: 1em;
+  border: 5px solid $lilly;
+  border-top: none;
+  border-radius: 5px;
+  border-bottom: none;
+  margin: 1em;
+  font-size: .9em;
+  color: $lilly;
+}

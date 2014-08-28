@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "What's the purpose of this text?"
+title:  "Code & Design"
 date:   2014-08-13 18:20:25
-image: logo.gif
+image: ruby.png
 intro: "Everyday we make a lot of decisions. Some of them are beneficial but some are malicious. However, if you'd know about what decisions are which, whether you correct your decision-making process?"
 ---
 
@@ -10,11 +10,17 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla aperiam consecte
 
 > Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio impedit, cupiditate __something important__. Repudiandae cum suscipit iste sapiente vero incidunt quae, vitae labore excepturi illo voluptatum qui aut, dignissimos, illum nam.
 
-Jekyll also offers powerful support for code snippets:
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui nisi tenetur, nostrum facilis quo, exercitationem accusantium, porro vel voluptatem doloremque, eveniet quisquam veniam placeat quidem! Id delectus, harum natus voluptates.
 
-- something
-- something
-- something
+1. Ruby
+2. Git
+3. Cucumber
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus nulla porro, et amet sequi ea facilis quibusdam cumque eos tempora ipsam, hic odio sit asperiores provident repellat, cum delectus soluta?
+
+## There is much fish in the sea
+
+Jekyll _also_ offers powerful support for code snippets:
 
 Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
 

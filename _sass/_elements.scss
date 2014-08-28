@@ -1,0 +1,159 @@
+// Buttons
+
+a.btn, .btn {
+  display: block;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+  text-align: center;
+}
+
+a.btn-purple, .btn-purple {
+  background-color: $lilly;
+  color: $white;
+}
+
+a.btn-blue, .btn-blue {
+  background-color: $light-blue;
+  color: $white;
+}
+
+a.btn-white, .btn-white {
+  background-color: $white;
+  color: $light-blue;
+}
+
+a.btn-white-purple, .btn-white-purple {
+  background-color: $white;
+  color: $lilly;
+}
+
+a.btn-down, .btn-down {
+  width: 75px;
+  height: 75px;
+  font-size: 50px;
+  border-radius: 50px;
+  font-family: $header-font-family;
+}
+
+// Sections
+
+.section-blue {
+  background-color: $light-blue;
+  color: $white;
+  color: $darkest-blue;
+
+  h1, h2, h3, h4, h5, h6 {
+    color: $white;
+  }
+
+  a {
+    text-decoration: underline;
+    color: $white;
+  }
+}
+
+.section-purple {
+  background-color: $lighter-lilly;
+  color: $darkest-lilly;
+
+  h1, h2, h3, h4, h5, h6 {
+    color: #446;
+    font-weight: 700;
+  }
+}
+
+.section-grey {
+  background-color: $black-blue;
+  color: $light-grey;
+
+  h1, h2, h3, h4, h5, h6 {
+    color: $light-blue;
+  }
+
+  a {
+    color: $light-blue;
+  }
+}
+
+.section-white {
+  background-color: $white;
+
+  h1, h2, h3, h4, h5, h6 {
+    color: $light-blue;
+  }
+}
+
+
+.intro {
+  @include container;
+  padding-top: 1em;
+  padding-bottom: 1.5em;
+
+  text-align: center;
+  font-size: 1.5em;
+
+  .btn-down {
+    margin: 5em auto;
+  }
+
+  hgroup {
+    h1 {
+      margin-bottom: 0;
+      text-transform: uppercase;
+      color: $dark-grey;
+    }
+
+    h2 {
+      color: $light-blue;
+    }
+  }
+
+  p {
+    color: $grey;
+  }
+
+  img {
+    width: 25%;
+  }
+}
+
+// Misc
+
+.nav {
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+
+    li {
+      float: right;
+      padding-left: 2em;
+    }
+
+    a {
+      color: inherit;
+      position: relative;
+      overflow: visible;
+
+      &.active {
+        color: $light-blue;
+
+        &:after {
+          content: '.';
+          position: absolute;
+          bottom: -.5em;
+          left: 40%;
+          color: $light-blue;
+          font-size: 35px;
+        }
+      }
+    }
+  }
+}
+
+.container {
+  padding: 1px 15%;
+}

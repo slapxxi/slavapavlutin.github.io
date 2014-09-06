@@ -73,11 +73,17 @@
 ---
 
 - stiff, rigid; _The windows were stiff and she couldn't get them open. She sat up right, her body rigid with fear._
-
-- huddle
-- glaring
-- reprimand
-- troubling
-- disparity
+- huddle; _We huddled together for warmth._
 - cultivate
 - surge
+- accrue
+- perceive
+
+- glaring, obvious; _It's the most glaring example of the problem._
+- expedient
+- strangled
+- implacable
+
+- disparity; _There's the wide disparity between rich and poor._
+- adversity
+- humility

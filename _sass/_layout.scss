@@ -1,6 +1,7 @@
 .header {
   @include container;
   @include vertical-padding(1em);
+
   border-bottom: 1px solid #eee;
   font-size: .9em;
   color: $grey;

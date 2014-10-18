@@ -1,44 +1,8 @@
-// Buttons
-
-a.btn, .btn {
-  display: block;
-  overflow: hidden;
-  margin-left: auto;
-  margin-right: auto;
-  text-decoration: none;
-  text-align: center;
+.container {
+  padding: 1px 15%;
 }
 
-a.btn-purple, .btn-purple {
-  background-color: $lilly;
-  color: $white;
-}
-
-a.btn-blue, .btn-blue {
-  background-color: $light-blue;
-  color: $white;
-}
-
-a.btn-white, .btn-white {
-  background-color: $white;
-  color: $light-blue;
-}
-
-a.btn-white-purple, .btn-white-purple {
-  background-color: $white;
-  color: $lilly;
-}
-
-a.btn-down, .btn-down {
-  width: 75px;
-  height: 75px;
-  font-size: 50px;
-  border-radius: 50px;
-  font-family: $header-font-family;
-}
-
-// Sections
-
+/* Sections */
 .section-blue {
   background-color: $light-blue;
   color: $white;
@@ -85,23 +49,19 @@ a.btn-down, .btn-down {
   }
 }
 
+/*Introduction block*/
 
-.intro {
+.intro, .outro {
   @include container;
-  padding-top: 1em;
-  padding-bottom: 1.5em;
-
   text-align: center;
   font-size: 1.5em;
 
-  .btn-down {
-    margin: 5em auto;
+  a {
+    text-decoration: underline;
   }
 
   hgroup {
     h1 {
-      margin-bottom: 0;
-      text-transform: uppercase;
       color: $dark-grey;
     }
 
@@ -112,10 +72,6 @@ a.btn-down, .btn-down {
 
   p {
     color: $grey;
-  }
-
-  img {
-    width: 25%;
   }
 }
 
@@ -140,20 +96,9 @@ a.btn-down, .btn-down {
 
       &.active {
         color: $light-blue;
-
-        &:after {
-          content: '.';
-          position: absolute;
-          bottom: -.5em;
-          left: 40%;
-          color: $light-blue;
-          font-size: 35px;
-        }
+        font-weight: 600;
       }
     }
   }
 }
 
-.container {
-  padding: 1px 15%;
-}

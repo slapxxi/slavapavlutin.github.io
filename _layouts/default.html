@@ -11,18 +11,16 @@
 
     <link rel="stylesheet" href="/css/syntax.css">
     <link rel="stylesheet" href="/css/main.css">
-
   </head>
 
   <body id="{{ page.page_id }}">
     <header class="header">
-      <a class="logo" href="/">SLAVA PAVLUTIN</a>
+      <a class="header-logo" href="/">SLAVA PAVLUTIN</a>
 
-      <nav class="nav">
+      <nav class="header-nav nav">
         <ul>
-          <li><a href="/projects">Projects</a></li>
+          <li><a href="/projects">Contact me</a></li>
           <li><a class="active" href="/blog">Blog</a></li>
-          <li><a href="/">Home</a></li>
         </ul>
       </nav>
     </header>
@@ -31,18 +29,15 @@
       {{ content }}
     </div>
 
-    <footer class="footer section-grey">
-      <nav>
+    <footer class="footer">
+      <nav class="footer-nav">
         <ul>
           <li><a href="/">Home</a></li>
           <li><a href="/blog">Blog</a></li>
-          <li><a href="/projects">Projects</a></li>
         </ul>
       </nav>
 
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa eos impedit est ex, aperiam quam. Reprehenderit, rerum animi sed, perferendis officia quas distinctio deleniti saepe atque tempora! Reprehenderit quia, fuga!</p>
-
-      <nav>
+      <nav class="footer-nav footer-nav-odd">
         <ul>
           <li><a href="/twitter">Twitter</a></li>
           <li><a href="/twitter">Dribbble</a></li>
@@ -50,7 +45,8 @@
           <li><a href="/twitter">BeHance</a></li>
         </ul>
       </nav>
-      <div class="meta">
+
+      <div class="footer-meta">
         <time>2014</time> ©
         Slava Pavlutin
       </div>

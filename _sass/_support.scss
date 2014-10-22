@@ -1,66 +1,122 @@
 @import "normalize";
 
-// Colors
+/* Colors */
+
 $white: #fff;
 $black: #111;
-
-$dark-blue: #97b2bf;
-$darkest-blue: #3b6cad;
 $black-blue: #23232e;
+
+$darkest-blue: #2a5c7f;
+$dark-blue: #97b2bf;
 $blue: #606fca;
 $light-blue: #7bacfd;
-
-$dark-green: #91b7b2;
-$green: #d5e3d3;
-$light-green: #8beced;
+$lightest-blue: #8bbcfd;
 
 $orange: #edb988;
 
-$dark-grey: #6b7073;
 $darkest-grey: #33383c;
+$dark-grey: #6b7073;
 $grey: #898f94;
-$light-grey: #b9bfc8;
+$light-grey: #b9bfe8;
 
-$dark-lilly: #999fb4;
 $darkest-lilly: #696f84;
+$dark-lilly: #999fb4;
 $lilly: #b9bfe4;
 $light-lilly: #e8e8ff;
-$lighter-lilly: #f8f8ff;
+$lightest-lilly: #f8f8ff;
 
-
-// Fonts
+/*Font Families*/
 
 $header-font-family: "Dosis", 'Avenir Bold', Georgia, serif;
 $main-font-family: "Source Sans Pro", 'Helvetica Neue', Arial, sans-serif;
 
-// Mixins
+/* Blocks */
 
 @mixin container {
-  padding: 1px 10%;
   overflow: hidden;
+  padding: 1px 10%;
 }
 
-@mixin reset-anchors {
-  a {
-    text-decoration: none;
+@mixin section {
+  @include container;
 
-    a:link, a:hover {
-      text-decoration: none;
-    }
-
-    a:visited, a:active {
-      color: inherit;
-    }
+  h2 { font-size: 1.9em; }
+  img {
+    float: right;
+    margin: 1em;
+    margin-left: 20%;
   }
 }
 
-@mixin navlist {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+@mixin section-even {
+  img {
+    float: left;
+    margin-right: 10%;
+    margin-left: 0;
+  }
+}
+
+@mixin hero-unit {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+/* Color Schemes */
+
+@mixin scheme-default {
+  hgroup {
+    h1 { color: $dark-grey;  }
+    h2 { color: $light-blue; }
+  }
+  p { color: $grey; }
+}
+
+@mixin scheme-grey {
+  background-color: $black-blue;
+  color: $light-grey;
+
+  h1, h2, h3, h4, h5, h6 { color: $light-blue; }
+  a { color: $light-blue; }
+}
+
+@mixin scheme-blue {
+  background-color: $light-blue;
+  color: $darkest-blue;
+
+  h1, h2, h3, h4, h5, h6 { color: $white; }
+  a {
+    text-decoration: underline;
+    color: $white;
+    &:hover { text-decoration: none; }
+  }
+}
+
+@mixin scheme-white {
+  background-color: $white;
+
+  h1, h2, h3, h4, h5, h6 { color: $light-blue; }
+  a { text-decoration: underline; }
+}
+
+@mixin scheme-purple {
+  background-color: $light-lilly;
+  color: $dark-lilly;
+
+  h1, h2, h3, h4, h5, h6 { color: $darkest-lilly; }
+  a { text-decoration: underline; }
+}
+
+/* Resets */
+
+@mixin reset-anchor {
+  text-decoration: none;
+
+  &:link, &:hover { text-decoration: none; }
 }
 
 @mixin reset-list {
+  @include reset-anchor;
+
   list-style: none;
   padding: 0;
   margin: 0;
@@ -72,27 +128,7 @@ $main-font-family: "Source Sans Pro", 'Helvetica Neue', Arial, sans-serif;
   margin: 0;
 }
 
-@mixin vertical-padding($size) {
-  padding-top: $size;
-  padding-bottom: $size;
-}
-
-@mixin vertical-margin($size) {
-  margin-top: $size;
-  margin-bottom: $size;
-}
-
-@mixin horizontal-padding($size) {
-  padding-left: $size;
-  padding-right: $size;
-}
-
-@mixin horizontal-margin($size) {
-  margin-left: $size;
-  margin-right: $size;
-}
-
-// Basic HTML
+/* Normalization */
 
 html, body { height: 100%; }
 
@@ -133,21 +169,15 @@ em {
   font-style: normal;
 }
 
-ul.nav {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
 blockquote {
   @include reset-block;
   padding-left: 1em;
   padding-right: 1em;
-  border: 5px solid $lilly;
+  border: 5px solid $blue;
   border-top: none;
   border-radius: 5px;
   border-bottom: none;
   margin: 1em;
   font-size: .9em;
-  color: $lilly;
+  color: $blue;
 }

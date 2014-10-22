@@ -1,159 +1,120 @@
+/* Header */
+
 .header {
   @include container;
-  @include vertical-padding(1em);
-
+  padding-top: 1em;
+  padding-bottom: 1em;
   border-bottom: 1px solid #eee;
   font-size: .9em;
   color: $grey;
 
-  .logo {
+  .header-logo {
     float: left;
-    letter-spacing: .3em;
-    font-family: $header-font-family;
     border: 1px dashed $light-grey;
-    border-left: none;
-    border-right: none;
+    border: {
+      left: none;
+      right: none;
+    }
+    font-family: $header-font-family;
+    text-decoration: none;
+    letter-spacing: .3em;
     color: $grey;
   }
 
-  .nav {
+  .header-nav {
     text-transform: uppercase;
+    a:hover { color: $blue; }
 
-    a:hover {
-      color: $blue;
+    ul {
+      @include reset-list;
+
+      li {
+        float: right;
+        padding-left: 2em;
+      }
     }
   }
 }
 
+/* Main Content */
 
 .content {
   font-size: 1.5em;
 }
 
+/* Footer */
+
 .footer {
   @include container;
+  @include scheme-grey;
   clear: both;
   padding-top: 2em;
-  border-top: 1px solid $white;
 
-  ul {
-    @include reset-list;
+  .footer-meta {
+    clear: both;
+    padding: 1em;
+    text-align: center;
+    color: #445;
   }
 
-  .meta {
-    text-align: center;
+  .footer-nav {
+    float: left;
+    ul { @include reset-list; }
+  }
+
+  .footer-nav-odd {
+    float: right;
   }
 }
 
-// Home
+/* PAGES */
+
+/* Home Page */
 
 .about {
-  @include container;
-  min-height: 500px;
-  padding-bottom: 200px;
-  padding-top: 200px;
-  margin: 0;
+  position: relative;
 
-  h2 {
-    font-size: 1.9em;
-  }
-
-  img {
-    float: right;
-    margin: 1em;
-    margin-left: 20%;
-  }
-}
-
-.about-right {
-  img {
-    float: left;
-    margin-right: 10%;
-    margin-left: 0;
-  }
-}
-
-#home {
-  .intro {
+  .about-intro, .about-outro {
+    @include container;
+    @include scheme-white;
+    @include hero-unit;
     margin-bottom: 5em;
+
+    hgroup {
+      h1 { color: $dark-grey;  }
+      h2 { color: $light-blue; }
+    }
+    p { color: $grey; }
+  }
+
+  .about-ruby {
+    @include section;
+    @include scheme-blue;
+  }
+
+  .about-writing {
+    @include section;
+    @include section-even;
+    @include scheme-white;
+  }
+
+  .about-clarity {
+    @include section;
+    @include scheme-grey;
   }
 }
 
-
-
-// Blog
+/* Blog Page */
 
 .posts {
-  @include vertical-padding(2em);
-  padding: 2em 5%;
+  @include reset-list;
 
-  ul {
-    @include navlist;
-
-    li {
-      @include vertical-padding(1em);
-    }
-  }
-
-
-  h2 {
-    margin-bottom: 10px;
-  }
-
-  .post-preview {
-    position: relative;
-    float: left;
-    width: 27%;
-    height: 20em;
-    padding: 0 1.5%;
-    margin-bottom: 2em;
-    border-radius: 5px;
-    font-size: .8em;
-
-
-    a {
-      &:hover {
-        text-decoration: underline;
-      }
-    }
-
-     a.btn {
-      position: absolute;
-      padding: 1em;
-      border-bottom-right-radius: 5px;
-      border-bottom-left-radius: 5px;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      background-color: $light-blue;
-      text-align: center;
-      color: #fff;
-
-      &:hover, &:visited {
-        background-color: $dark-lilly;
-        text-decoration: none;
-      }
-    }
-  }
-
-  .post-preview-odd {
-    @include horizontal-margin(5%);
-  }
-
-  .post-preview-meta {
-    font-size: .8em;
-
-    time {
-      font-style: italic;
-      color: $dark-blue;
-    }
-
-    a {
-      color: $orange;
-    }
+  .posts-preview {
+    @include scheme-blue;
   }
 }
 
+/* Blog Entry */
 
 .post {
   padding: 0 20%;
@@ -175,39 +136,3 @@
     }
   }
 }
-
-// Projects
-
-.projects {
-  @include navlist;
-
-  h2 {
-    font-weight: 700;
-  }
-
-  .project {
-    @include container;
-    @include vertical-padding(2em);
-    @include vertical-margin(3em);
-    overflow: auto;
-
-    img {
-      float: right;
-      width: 25%;
-      max-width: 250px;
-      margin-left: 20%;
-    }
-  }
-
-  .project-odd {
-    background-color: $lilly;
-    color: #fff;
-
-    img {
-      float: left;
-      margin-right: 20%;
-      margin-left: 0;
-    }
-  }
-}
-

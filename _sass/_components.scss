@@ -1,4 +1,4 @@
-.articles {
+.articles, .projects {
   @include reset-list;
 
   li {
@@ -37,6 +37,28 @@
 
     a {
       @include button;
+    }
+  }
+}
+
+.projects {
+  img {
+    float: left;
+    margin-right: 2em;
+  }
+
+  .preview {
+    margin: 5em 0;
+    p {
+      margin-left: 152px;
+    }
+  }
+}
+
+.page-index {
+  footer {
+    a:first-child {
+      margin-right: 3em;
     }
   }
 }

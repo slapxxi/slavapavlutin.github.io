@@ -2,30 +2,36 @@
   @include container;
   font-family: $header-font-family;
   text-transform: uppercase;
-  font-size: .8em;
+  font-weight: 600;
+  font-size: .9em;
   text-align: center;
 
   ul { @include inline-list;}
 
   a {
     color: $black;
-    &:hover {
+
+    &:hover, &:active {
       text-decoration: none;
       color: $blue;
     }
   }
 
   .logo {
-    transition: all 1s;
-    &:hover {
-      -webkit-transform: scale(.7) rotate(1800deg);
+    img {
+      background-color: black;
+      width: 80px;
+
+      &:hover, &:active {
+        background-color: $blue;
+      }
     }
   }
 }
 
 .site-footer {
   font-family: $main-font-family;
-  text-transform: none;
+  font-weight: 200;
   a { color: $grey-light; }
 }
 

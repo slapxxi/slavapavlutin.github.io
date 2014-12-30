@@ -3,22 +3,20 @@ layout: default
 title: Slava Pavlutin | Articles
 ---
 <section class="page">
-  <header>
+  <header class="page-intro">
     <h2>Articles</h2>
-    <p>
-      I write rarely but I want to write regularly, so pay me a visit frequently.
-    </p>
+    <p> I write rarely but I want to write regularly, so pay me a visit frequently.</p>
   </header>
 
-  <ul class="articles">
-    {% for post in site.posts %}
+  <ul class="list list-articles">
+    {% for article in site.posts %}
       <li>
         <h2>
-          <a href="{{post.url}}">{{ post.title }}</a>
+          <a href="{{article.url}}">{{ article.title }}</a>
         </h2>
-        <time>{{ post.date | date_to_long_string }}</time>
+        <time>{{ article.date | date_to_long_string }}</time>
         <p>
-          {{ post.excerpt }}
+          {{ article.excerpt }}
         </p>
       </li>
     {% endfor %}

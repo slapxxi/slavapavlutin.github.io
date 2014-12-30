@@ -3,8 +3,10 @@ layout: default
 ---
 <article class="article">
   <header class="intro">
-    <h2>{{ page.title }}</h2>
-    <time>{{ page.date | date_to_long_string }}</time>
+    <hgroup>
+      <h2>{{ page.title }}</h2>
+      <time>{{ page.date | date_to_long_string }}</time>
+    </hgroup>
     <p>{{ page.excerpt }}</p>
   </header>
 
@@ -12,7 +14,7 @@ layout: default
 
   <footer>
     <nav>
-      <a href="/blog">Back to articles</a>
+      <a href="/articles">Back to articles</a>
     </nav>
   </footer>
 </article>

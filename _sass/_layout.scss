@@ -1,39 +1,41 @@
 .header, .footer {
   @include container;
-  font-family: $header-font-family;
+  font-family: $raleway;
   text-transform: uppercase;
-  font-weight: 600;
-  font-size: .9em;
   text-align: center;
+  font-size: .9em;
 
   ul { @include inline-list;}
 
-  a {
+  a:link, a:visited {
     color: $grey;
+    text-decoration: none;
+  }
 
-    &:hover, &:active {
-      text-decoration: none;
-      color: $blue;
-    }
+  a:hover, a:active {
+    color: $blue;
   }
 
   .logo {
-    img {
-      background-color: black;
-      width: 80px;
-      -webkit-transition: all .5s;
+    width: 80px;
+    background-color: $grey;
+    -webkit-transition: all .5s;
 
-      &:hover, &:active {
-        background-color: $blue;
-      }
+    &:hover {
+      background-color: $blue;
     }
   }
 }
 
 .footer {
-  font-family: $main-font-family;
-  font-weight: 400;
-  a { color: $grey-light; }
+  margin-top: 100px;
+  color: $grey-light;
+
+  small {
+    display: block;
+    margin: 1.5em auto;
+    font-size: .5em;
+  }
 }
 
 .content {

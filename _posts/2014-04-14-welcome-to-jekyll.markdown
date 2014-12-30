@@ -6,8 +6,6 @@ permalink: "welcome-to-jungle"
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, expedita? Architecto cumque magnam molestias, modi, officia animi alias, quo ipsum maxime libero, fugiat unde? Laboriosam asperiores voluptatibus nostrum, in. Quas!
 
-> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores amet voluptas impedit aperiam temporibus ex sapiente. Ad et nihil inventore rerum accusamus dignissimos molestias eaque esse aperiam asperiores ut, libero.
-
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum neque, placeat, at totam quidem quasi quia, rerum ea doloribus odio aliquam. Maiores molestiae voluptatem officia, dicta aliquam facilis culpa ipsa.
 
 ## There are many ways

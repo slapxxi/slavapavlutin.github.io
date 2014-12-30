@@ -1,15 +1,10 @@
 ---
 layout: article
 title:  "Code & Design"
-date:   2014-08-13 18:20:25
 permalink: "welcome-to-something"
-image: ruby.png
-intro: "Everyday we make a lot of decisions. Some of them are beneficial but some are malicious. However, if you'd know about what decisions are which, whether you correct your decision-making process?"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla aperiam consectetur delectus accusamus qui, corporis iusto dolor dolorum deleniti, placeat tempore, voluptas veniam perspiciatis iste eveniet dignissimos. Labore, nostrum, beatae.
-
-> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio impedit, cupiditate __something important__. Repudiandae cum suscipit iste sapiente vero incidunt quae, vitae labore excepturi illo voluptatum qui aut, dignissimos, illum nam.
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui nisi tenetur, nostrum facilis quo, exercitationem accusantium, porro vel voluptatem doloremque, eveniet quisquam veniam placeat quidem! Id delectus, harum natus voluptates.
 

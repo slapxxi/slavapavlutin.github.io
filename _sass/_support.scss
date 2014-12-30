@@ -1,8 +1,12 @@
 $white: #fff;
 $black: #223;
+
 $grey: #556;
 $grey-light: #99a;
+$grey-lightest: #bbc;
+
 $blue: #37f;
+$blue-dark: #37a;
 $yellow: #fd0;
 
 /*Font Families*/
@@ -50,5 +54,19 @@ $sourcesans: "Source Sans Pro", Arial, sans-serif;
     display: inline-block;
     margin-left: 1em;
     vertical-align: middle;
+  }
+}
+
+@mixin button {
+  display: inline-block;
+  border: 1px solid $blue;
+  padding: .5em 1em;
+  border-radius: 5px;
+  color: $blue;
+
+  &:hover {
+    border-color: $blue-dark;
+    color: $blue-dark;
+    text-decoration: none;
   }
 }

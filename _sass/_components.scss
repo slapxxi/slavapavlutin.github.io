@@ -1,14 +1,42 @@
-.intro {
-  font-size: 1.4em;
+.articles {
+  @include reset-list;
 
-  h2 { text-align: center; }
+  li {
+    margin-bottom: 2em;
 
-  p {
-    font-family: $header-font-family;
-    color: $grey-light;
+    time {
+      display: block;
+      margin-top: -1em;
+    }
   }
 }
 
-.articles {
-  ul { @include reset-list; }
+.article, .page {
+  header {
+    font-size: 1.4em;
+    text-align: center;
+    margin-bottom: 2em;
+
+    p {
+      text-align: left;
+      font-family: $raleway;
+      color: $grey-light;
+    }
+
+    time {
+      display: block;
+      margin-top: -1em;
+    }
+  }
+}
+
+.article, .page {
+  footer {
+    margin-top: 2em;
+    text-align: center;
+
+    a {
+      @include button;
+    }
+  }
 }

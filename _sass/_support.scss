@@ -1,112 +1,25 @@
-@import "normalize";
+$white: #eef;
+$black: #112;
+$grey: #445;
+$grey-light: #99a;
 
-/* Colors */
-
-$white: #fff;
-$black: #111;
-$black-blue: #23232e;
-
-$darkest-blue: #2a5c7f;
-$dark-blue: #97b2bf;
-$blue: #606fca;
-$light-blue: #7bacfd;
-$lightest-blue: #8bbcfd;
-
-$orange: #edb988;
-
-$darkest-grey: #33383c;
-$dark-grey: #6b7073;
-$grey: #898f94;
-$light-grey: #b9bfe8;
-
-$darkest-lilly: #696f84;
-$dark-lilly: #999fb4;
-$lilly: #b9bfe4;
-$light-lilly: #e8e8ff;
-$lightest-lilly: #f8f8ff;
+$blue: #48f;
+$orange: #f83;
 
 /*Font Families*/
 
-$header-font-family: "Dosis", 'Avenir Bold', Georgia, serif;
-$main-font-family: "Source Sans Pro", 'Helvetica Neue', Arial, sans-serif;
+$header-font-family: "Arvo", Georgia, serif;
+$main-font-family: "Source Sans Pro", Arial, sans-serif;
 
 /* Blocks */
 
 @mixin container {
   overflow: hidden;
-  padding: 1px 10%;
+  max-width: 960px;
+  min-width: 540px;
+  padding: 1em 0;
+  margin: 0 auto;
 }
-
-@mixin section {
-  @include container;
-
-  h2 { font-size: 1.9em; }
-  img {
-    float: right;
-    margin: 1em;
-    margin-left: 20%;
-  }
-}
-
-@mixin section-even {
-  img {
-    float: left;
-    margin-right: 10%;
-    margin-left: 0;
-  }
-}
-
-@mixin hero-unit {
-  text-align: center;
-  font-size: 1.5em;
-}
-
-/* Color Schemes */
-
-@mixin scheme-default {
-  hgroup {
-    h1 { color: $dark-grey;  }
-    h2 { color: $light-blue; }
-  }
-  p { color: $grey; }
-}
-
-@mixin scheme-grey {
-  background-color: $black-blue;
-  color: $light-grey;
-
-  h1, h2, h3, h4, h5, h6 { color: $light-blue; }
-  a { color: $light-blue; }
-}
-
-@mixin scheme-blue {
-  background-color: $light-blue;
-  color: $darkest-blue;
-
-  h1, h2, h3, h4, h5, h6 { color: $white; }
-  a {
-    text-decoration: underline;
-    color: $white;
-    &:hover { text-decoration: none; }
-  }
-}
-
-@mixin scheme-white {
-  background-color: $white;
-
-  h1, h2, h3, h4, h5, h6 { color: $light-blue; }
-  a { text-decoration: underline; }
-}
-
-@mixin scheme-purple {
-  background-color: $light-lilly;
-  color: $dark-lilly;
-
-  h1, h2, h3, h4, h5, h6 { color: $darkest-lilly; }
-  a { text-decoration: underline; }
-}
-
-/* Resets */
 
 @mixin reset-anchor {
   text-decoration: none;
@@ -128,56 +41,11 @@ $main-font-family: "Source Sans Pro", 'Helvetica Neue', Arial, sans-serif;
   margin: 0;
 }
 
-/* Normalization */
-
-html, body { height: 100%; }
-
-body {
-  font-family: $main-font-family;
-  color: $dark-grey;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: $header-font-family;
-  font-weight: 500;
-  color: $dark-grey;
-}
-
-h1 {
-  color: $dark-grey;
-}
-
-h2 {
-  color: $darkest-grey;
-}
-
-a {
-  text-decoration: none;
-
-  &:link, &:visited {
-    color: $light-blue;
+@mixin inline-list {
+  @include reset-list;
+  li {
+    display: inline-block;
+    margin-left: 1em;
+    vertical-align: middle;
   }
-
-  &:hover, &:active {
-    color: $blue;
-    text-decoration: underline;
-  }
-}
-
-em {
-  color: $light-blue;
-  font-style: normal;
-}
-
-blockquote {
-  @include reset-block;
-  padding-left: 1em;
-  padding-right: 1em;
-  border: 5px solid $blue;
-  border-top: none;
-  border-radius: 5px;
-  border-bottom: none;
-  margin: 1em;
-  font-size: .9em;
-  color: $blue;
 }

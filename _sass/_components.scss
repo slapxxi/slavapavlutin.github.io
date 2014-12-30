@@ -1,8 +1,0 @@
-.container {
-  @include container;
-}
-
-.page-intro, .page-outro {
-  @include scheme-default;
-  @include hero-unit;
-}

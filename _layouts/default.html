@@ -13,46 +13,31 @@
     <link rel="stylesheet" href="/css/main.css">
   </head>
 
-  <body id="{{ page.page_id }}">
-    <header class="header">
-      <a class="header-logo" href="/">SLAVA PAVLUTIN</a>
-
-      <nav class="header-nav nav">
+  <body>
+    <header class="site-header">
+      <nav>
         <ul>
-          <li><a href="/projects">Contact me</a></li>
-          <li><a class="active" href="/blog">Blog</a></li>
+          <li><a href="/blog">Articles</a></li>
+          <li class="logo"><a href="/"><img src="/img/logo.gif" alt="Slava Pavlutin"></a></li>
+          <li><a href="#">Projects</a></li>
         </ul>
       </nav>
     </header>
 
-    <div class="content">
-      {{ content }}
+    <div class="site-content">
+      {{content}}
     </div>
 
-    <footer class="footer">
-      <nav class="footer-nav">
+    <footer class="site-footer">
+      <nav>
         <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/blog">Blog</a></li>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">GitHub</a></li>
+          <li><a href="#">Dribbble</a></li>
+          <li><a href="#">Email</a></li>
         </ul>
       </nav>
-
-      <nav class="footer-nav footer-nav-odd">
-        <ul>
-          <li><a href="/twitter">Twitter</a></li>
-          <li><a href="/twitter">Dribbble</a></li>
-          <li><a href="/twitter">Github</a></li>
-          <li><a href="/twitter">BeHance</a></li>
-        </ul>
-      </nav>
-
-      <div class="footer-meta">
-        <time>2014</time> ©
-        Slava Pavlutin
-      </div>
     </footer>
-  </body>
-
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="/js/main.js"></script>
 </html>

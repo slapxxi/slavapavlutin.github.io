@@ -1,0 +1,43 @@
+@import "normalize";
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-size: 100%;
+  font-family: $main-font-family;
+  color: $grey;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $header-font-family;
+  font-weight: 200;
+}
+
+a {
+  text-decoration: none;
+  color: $blue;
+
+  &:link, &:visited {
+  }
+
+  &:hover, &:active {
+    color: $blue;
+    text-decoration: underline;
+  }
+}
+
+
+blockquote {
+  @include reset-block;
+  padding-left: 1em;
+  padding-right: 1em;
+  border: 5px solid $blue;
+  border-top: none;
+  border-radius: 5px;
+  border-bottom: none;
+  margin: 1em;
+  font-size: .9em;
+  color: $blue;
+}

@@ -1,138 +1,34 @@
-/* Header */
-
-.header {
+.site-header, .site-footer {
   @include container;
-  padding-top: 1em;
-  padding-bottom: 1em;
-  border-bottom: 1px solid #eee;
-  font-size: .9em;
-  color: $grey;
+  font-family: $header-font-family;
+  text-transform: uppercase;
+  font-size: .8em;
+  text-align: center;
 
-  .header-logo {
-    float: left;
-    border: 1px dashed $light-grey;
-    border: {
-      left: none;
-      right: none;
+  ul { @include inline-list;}
+
+  a {
+    color: $black;
+    &:hover {
+      text-decoration: none;
+      color: $blue;
     }
-    font-family: $header-font-family;
-    text-decoration: none;
-    letter-spacing: .3em;
-    color: $grey;
   }
 
-  .header-nav {
-    text-transform: uppercase;
-    a:hover { color: $blue; }
-
-    ul {
-      @include reset-list;
-
-      li {
-        float: right;
-        padding-left: 2em;
-      }
+  .logo {
+    transition: all 1s;
+    &:hover {
+      -webkit-transform: scale(.7) rotate(1800deg);
     }
   }
 }
 
-/* Main Content */
-
-.content {
-  font-size: 1.5em;
+.site-footer {
+  font-family: $main-font-family;
+  text-transform: none;
+  a { color: $grey-light; }
 }
 
-/* Footer */
-
-.footer {
+.site-content {
   @include container;
-  @include scheme-grey;
-  clear: both;
-  padding-top: 2em;
-
-  .footer-meta {
-    clear: both;
-    padding: 1em;
-    text-align: center;
-    color: #445;
-  }
-
-  .footer-nav {
-    float: left;
-    ul { @include reset-list; }
-  }
-
-  .footer-nav-odd {
-    float: right;
-  }
-}
-
-/* PAGES */
-
-/* Home Page */
-
-.about {
-  position: relative;
-
-  .about-intro, .about-outro {
-    @include container;
-    @include scheme-white;
-    @include hero-unit;
-    margin-bottom: 5em;
-
-    hgroup {
-      h1 { color: $dark-grey;  }
-      h2 { color: $light-blue; }
-    }
-    p { color: $grey; }
-  }
-
-  .about-ruby {
-    @include section;
-    @include scheme-blue;
-  }
-
-  .about-writing {
-    @include section;
-    @include section-even;
-    @include scheme-white;
-  }
-
-  .about-clarity {
-    @include section;
-    @include scheme-grey;
-  }
-}
-
-/* Blog Page */
-
-.posts {
-  @include reset-list;
-
-  .posts-preview {
-    @include scheme-blue;
-  }
-}
-
-/* Blog Entry */
-
-.post {
-  padding: 0 20%;
-  text-align: justify;
-
-  .post-intro {
-    padding: 1em 0 0;
-
-    img {
-      margin-top: 1em;
-    }
-
-    p {
-      text-align: justify;
-      font-size: 1em;
-      font-size: 2rem;
-      padding: 0 1em;
-      color: $grey;
-    }
-  }
 }

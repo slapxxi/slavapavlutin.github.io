@@ -14,8 +14,8 @@ $main-font-family: "Source Sans Pro", Arial, sans-serif;
 @mixin container {
   overflow: hidden;
   max-width: 960px;
-  min-width: 540px;
-  padding: 1em 0;
+  min-width: 480px;
+  padding: 1em 10%;
   margin: 0 auto;
 }
 

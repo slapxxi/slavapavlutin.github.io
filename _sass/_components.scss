@@ -1,0 +1,14 @@
+.intro {
+  font-size: 1.4em;
+
+  h2 { text-align: center; }
+
+  p {
+    font-family: $header-font-family;
+    color: $grey-light;
+  }
+}
+
+.articles {
+  ul { @include reset-list; }
+}

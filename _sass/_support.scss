@@ -2,18 +2,23 @@ $white: #fff;
 $black: #223;
 $grey: #556;
 $grey-light: #99a;
-$blue: #48f;
+$blue: #37f;
+$yellow: #fd0;
 
 /*Font Families*/
 
 $header-font-family: "Raleway", Georgia, serif;
 $main-font-family: "Source Sans Pro", Arial, sans-serif;
 
+$arvo: "Arvo", "Cambria", serif;
+$raleway: "Raleway", Georgia, serif;
+$sourcesans: "Source Sans Pro", Arial, sans-serif;
+
 /* Blocks */
 
 @mixin container {
   overflow: hidden;
-  max-width: 960px;
+  max-width: 720px;
   min-width: 480px;
   padding: 1em 10%;
   margin: 0 auto;

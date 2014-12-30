@@ -1,4 +1,4 @@
-.site-header, .site-footer {
+.header, .footer {
   @include container;
   font-family: $header-font-family;
   text-transform: uppercase;
@@ -9,7 +9,7 @@
   ul { @include inline-list;}
 
   a {
-    color: $black;
+    color: $grey;
 
     &:hover, &:active {
       text-decoration: none;
@@ -21,6 +21,7 @@
     img {
       background-color: black;
       width: 80px;
+      -webkit-transition: all .5s;
 
       &:hover, &:active {
         background-color: $blue;
@@ -29,12 +30,12 @@
   }
 }
 
-.site-footer {
+.footer {
   font-family: $main-font-family;
-  font-weight: 200;
+  font-weight: 400;
   a { color: $grey-light; }
 }
 
-.site-content {
+.content {
   @include container;
 }

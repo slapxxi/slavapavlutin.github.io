@@ -1,0 +1,28 @@
+---
+layout: default
+title: Slava Pavlutin | Articles
+---
+<section class="articles">
+  <header class="intro">
+    <h2>Articles</h2>
+    <p>
+      I write rarely but I want to write regularly, so pay me a visit frequently.
+    </p>
+  </header>
+
+  <section>
+    <ul>
+      {% for post in site.posts %}
+        <li>
+          <h2>
+            <a href="{{post.url}}">{{ post.title }}</a>
+          </h2>
+          <em>{{ post.date | date_to_long_string }}</em>
+          <p>
+            {{ post.excerpt }}
+          </p>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+</section>

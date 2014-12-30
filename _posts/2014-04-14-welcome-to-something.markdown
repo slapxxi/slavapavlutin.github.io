@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: article
 title:  "Code & Design"
 date:   2014-08-13 18:20:25
+permalink: "welcome-to-something"
 image: ruby.png
 intro: "Everyday we make a lot of decisions. Some of them are beneficial but some are malicious. However, if you'd know about what decisions are which, whether you correct your decision-making process?"
 ---

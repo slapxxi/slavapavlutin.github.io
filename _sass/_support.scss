@@ -6,7 +6,7 @@ $grey-light: #99a;
 $grey-lightest: #bbc;
 
 $blue: #37f;
-$blue-dark: #37a;
+$blue-dark: #37d;
 $yellow: #fd0;
 
 /*Font Families*/
@@ -19,6 +19,14 @@ $raleway: "Raleway", Georgia, serif;
 $sourcesans: "Source Sans Pro", Arial, sans-serif;
 
 /* Blocks */
+
+@mixin clear {
+  &:after {
+    content: ' ';
+    display: block;
+    clear: both;
+  }
+}
 
 @mixin container {
   overflow: hidden;

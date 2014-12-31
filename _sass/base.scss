@@ -11,6 +11,14 @@ h1, h2, h3, h4, h5, h6 {
   color: $black;
 }
 
+footer {
+  @include clear;
+}
+
+p {
+  margin: 2em auto;
+}
+
 ul { list-style-type: square; }
 
 a {
@@ -42,7 +50,6 @@ blockquote {
 }
 
 time {
-  font-style: italic;
   font-size: .9em;
   color: $grey-lightest;
 }

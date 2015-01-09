@@ -5,34 +5,26 @@ $margin-right: 10%;
   position: fixed;
   top: 0;
   bottom: 0;
-  border-right: 2px solid $grey-lightest;
+
   width: 25%;
-  padding: 5%;
-  padding-top: 200px;
+  min-height: 400px;
+  padding: $margin-top 5%;
+  border-right: 2px solid $grey-lightest;
+
   text-align: center;
   font-size: 1.2em;
 
   @media (max-width: 720px) {
     position: static;
-    overflow: hidden;
-    padding: 0;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    width: 100%;
+    width: auto;
     border-right: none;
     border-bottom: 2px solid $grey-lightest;
   }
 
   header {
-    position: absolute;
-    top: $margin-top;
-    left: 0;
-    right: 0;
-
     h1, h2 {
       display: inline-block;
-      margin-bottom: 0;
-      margin-top: 0;
+      margin: 0;
       font-size: 1em;
     }
 
@@ -50,17 +42,26 @@ $margin-right: 10%;
     position: absolute;
     left: 0;
     right: 0;
-    bottom: 50px;
-    font-size: .8em;
+    bottom: $margin-top;
     color: $grey-light;
     font-weight: 100;
+    font-size: .8em;
+
+    ul {@include inline-list;}
+    a {color: $grey-light;}
 
     @media (max-width: 720px) {
       position: static;
     }
 
-    ul {@include inline-list;}
-    a {color: $grey-light;}
+    @media (max-width: 960px) {
+      font-size: .7em;
+    }
+
+    @media (max-height: 600px) {
+      position: static;
+      clear: both;
+    }
   }
 
   p {
@@ -72,14 +73,20 @@ $margin-right: 10%;
 
     @media (max-width: 720px) {
       position: static;
+
       img {
         width: 100px;
       }
     }
 
+    @media (max-height: 700px) {
+      position: static;
+      padding: 0;
+    }
+
     img {
       display: block;
-      width: 50%;
+      width: 65%;
       margin: 10px auto;
     }
   }
@@ -88,6 +95,7 @@ $margin-right: 10%;
 .Content {
   margin-left: 45%;
   margin-top: $margin-top;
+  margin-bottom: $margin-top;
   font-weight: 100;
 
   @media (max-width: 720px) {
@@ -105,6 +113,17 @@ $margin-right: 10%;
     border-top: 1px solid $grey-lightest;
   }
 
+  &:last-child {
+    border-bottom: 0;
+  }
+
+  img {
+    display: block;
+    max-height: 200px;
+    width: 50%;
+    margin: $margin-top auto;
+  }
+
   time {
     position: absolute;
     top: -.6em;
@@ -112,7 +131,7 @@ $margin-right: 10%;
     width: 10em;
     margin-right: 1em;
     text-align: right;
-    font-size: .8em;
+    font-size: .7em;
     font-weight: 400;
     text-transform: uppercase;
 

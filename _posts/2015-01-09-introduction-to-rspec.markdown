@@ -2,6 +2,7 @@
 layout: article
 title:  "Introduction to RSpec"
 permalink: "introduction-to-rspec"
+img: display
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, expedita? Architecto cumque magnam molestias, modi, officia animi alias, quo ipsum maxime libero, fugiat unde? Laboriosam asperiores voluptatibus nostrum, in. Quas!

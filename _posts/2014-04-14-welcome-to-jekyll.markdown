@@ -2,6 +2,7 @@
 layout: article
 title:  "Welcome to the Jungle"
 permalink: "welcome-to-jungle"
+img: ruby
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, expedita? Architecto cumque magnam molestias, modi, officia animi alias, quo ipsum maxime libero, fugiat unde? Laboriosam asperiores voluptatibus nostrum, in. Quas!

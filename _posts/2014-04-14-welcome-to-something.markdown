@@ -2,6 +2,7 @@
 layout: article
 title:  "Code & Design"
 permalink: "welcome-to-something"
+img: logo
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla aperiam consectetur delectus accusamus qui, corporis iusto dolor dolorum deleniti, placeat tempore, voluptas veniam perspiciatis iste eveniet dignissimos. Labore, nostrum, beatae.

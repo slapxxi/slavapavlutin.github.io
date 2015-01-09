@@ -2,21 +2,20 @@ $white: #fff;
 $black: #223;
 
 $grey: #556;
-$grey-light: #99a;
-$grey-lightest: #bbc;
+$grey-light: #aab;
+$grey-lightest: #eee;
 
-$blue: #37f;
+$blue: #29f;
 $blue-dark: #37d;
+
 $yellow: #fd0;
 
 /*Font Families*/
 
-$header-font-family: "Raleway", Georgia, serif;
-$main-font-family: "Source Sans Pro", Arial, sans-serif;
-
 $arvo: "Arvo", "Cambria", serif;
 $raleway: "Raleway", Georgia, serif;
 $sourcesans: "Source Sans Pro", Arial, sans-serif;
+$roboto: Roboto, "Source Sans Pro", sans-serif;
 
 /* Blocks */
 
@@ -33,6 +32,7 @@ $sourcesans: "Source Sans Pro", Arial, sans-serif;
   max-width: 720px;
   min-width: 480px;
   padding: 1em 10%;
+  padding-left: 35%;
   margin: 0 auto;
 }
 

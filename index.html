@@ -2,35 +2,11 @@
 layout: default
 title: Slava Pavlutin
 ---
-<section class="page page-index">
-  <header class="page-intro">
-    <h2>I'm glad you're here</h2>
-    <p>
-      My name is Slava Pavlutin but you can call me Slava.<br>
-      I'm an aspiring software developer who also loves writing, design and
-      beautiful scenery.
-    </p>
-  </header>
-
-  <h3>What do I do, again?</h3>
-  <p>
-    I'm a software developer and I love it because it provides the ability
-     to create beautiful products.
-  </p>
-
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem dolorum aspernatur id nulla ad rem dolor culpa, exercitationem! Nihil non dolores, dignissimos commodi veniam dolorem. Ratione ducimus modi alias, veritatis!</p>
-
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque voluptatum libero rem nostrum ea id minus, expedita ipsa exercitationem ullam esse natus earum cum animi. Sunt, totam impedit distinctio. Quidem?</p>
-
-  <p>Either way, you have a few options - you can contact me via the links below, or you can just keep browsing. Here are some links to help you with
-  that.</p>
-
-  <footer>
-    <nav>
-      <ul class="tiles">
-        <li class="tile"><a href="/articles">Read Articles</a></li>
-        <li class="tile"><a href="/projects">View Projects</a></li>
-      </ul>
-    </nav>
-  </footer>
+{% for post in site.posts %}
+<div class="Preview">
+  <!-- <h2>{{post.title}}</h2> -->
+  <h2><a href="{{post.url}}">{{post.title}}</a></h2>
+  <time>{{ post.date | date_to_long_string }}</time>
+  <p>{{post.excerpt}}</p>
 </div>
+{% endfor %}

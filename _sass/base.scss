@@ -2,12 +2,14 @@
 
 body {
   font-size: 1.1em;
-  font-family: $sourcesans;
+  font-family: $roboto;
+  font-weight: 400;
   color: $grey;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $raleway;
+  font-weight: 600;
   color: $black;
 }
 
@@ -22,6 +24,7 @@ p {
 ul { list-style-type: square; }
 
 a {
+  color: $blue;
   &:link {
     text-decoration: none;
     color: $blue;
@@ -37,19 +40,8 @@ a {
   }
 }
 
-em {
-  font-style: normal;
-  background-color: $yellow;
-  color: $black;
-}
-
 blockquote {
   font-size: 1.2em;
   font-style: italic;
   color: $grey-light;
-}
-
-time {
-  font-size: .9em;
-  color: $grey-lightest;
 }

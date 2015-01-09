@@ -1,4 +1,5 @@
 $margin-top: 45px;
+$margin-right: 10%;
 
 .Profile {
   position: fixed;
@@ -10,6 +11,17 @@ $margin-top: 45px;
   padding-top: 200px;
   text-align: center;
   font-size: 1.2em;
+
+  @media (max-width: 720px) {
+    position: static;
+    overflow: hidden;
+    padding: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    border-right: none;
+    border-bottom: 2px solid $grey-lightest;
+  }
 
   header {
     position: absolute;
@@ -32,7 +44,6 @@ $margin-top: 45px;
       color: $grey-light;
       font-weight: 400;
     }
-
   }
 
   footer {
@@ -44,6 +55,10 @@ $margin-top: 45px;
     color: $grey-light;
     font-weight: 100;
 
+    @media (max-width: 720px) {
+      position: static;
+    }
+
     ul {@include inline-list;}
     a {color: $grey-light;}
   }
@@ -52,8 +67,15 @@ $margin-top: 45px;
     position: absolute;
     left: 0;
     right: 0;
-    bottom: 45%;
+    bottom: 40%;
     padding: 1em 30%;
+
+    @media (max-width: 720px) {
+      position: static;
+      img {
+        width: 100px;
+      }
+    }
 
     img {
       display: block;
@@ -64,14 +86,19 @@ $margin-top: 45px;
 }
 
 .Content {
-  @include container;
+  margin-left: 45%;
   margin-top: $margin-top;
   font-weight: 100;
+
+  @media (max-width: 720px) {
+    margin-left: 10%;
+  }
 }
 
 .Preview {
   position: relative;
   padding: 2em 0;
+  padding-right: 10%;
   border-bottom: 1px solid $grey-lightest;
 
   &:first-child {
@@ -83,18 +110,33 @@ $margin-top: 45px;
     top: -.6em;
     right: 100%;
     width: 10em;
+    margin-right: 1em;
+    text-align: right;
     font-size: .8em;
     font-weight: 400;
     text-transform: uppercase;
+
+    @media (max-width: 960px) {
+      left: 0;
+      top: 1em;
+      text-align: left;
+    }
   }
 }
 
 .Post {
+  padding-right: $margin-right;
   h2 {
     color: $grey;
   }
 
   time {
     color: $grey-light;
+  }
+
+  footer {
+    margin: 1em auto;
+
+    a { @include button; }
   }
 }
